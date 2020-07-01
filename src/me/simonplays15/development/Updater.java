@@ -72,7 +72,7 @@ public class Updater {
 	public void checkForUpdates() {
 		try {
 			
-			this.checkUrl = new URL("http://simonplays15.bplaced.net/projects/LionMC.de/updater/RemoteControlServer/RemoteControlServer.version");
+			this.checkUrl = new URL("URL DELETED");
 			this.checkUrl.openConnection().connect();
 			BufferedReader reader = new BufferedReader(new InputStreamReader(this.checkUrl.openStream()));
 			String var;
@@ -95,7 +95,7 @@ public class Updater {
 					for (Player players : Bukkit.getOnlinePlayers()) {
 						if (PlayerUtils.hasPermission(players, "remotecontrolserver.updater.notify")) {
 							players.sendMessage(Core.getPrefix()+"Found a new update for RemoteConsoleServer (v"+var+")");
-							players.sendMessage(Core.getPrefix()+"Download the new Version here: ง6http://simonplays15.bplaced.net/projects/LionMC.de/updater/RemoteControlServer/RemoteControlServer.jar");
+							players.sendMessage(Core.getPrefix()+"Download the new Version here: ยง6http://simonplays15.bplaced.net/projects/LionMC.de/updater/RemoteControlServer/RemoteControlServer.jar");
 						}	
 					}
 					
@@ -112,7 +112,7 @@ public class Updater {
 	public void download() {
 		try {
 			
-			BufferedInputStream in = new BufferedInputStream(new URL("http://simonplays15.bplaced.net/projects/LionMC.de/updater/RemoteControlServer/RemoteControlServer.jar").openStream());
+			BufferedInputStream in = new BufferedInputStream(new URL("URL DELETED").openStream());
 			FileOutputStream fout = new FileOutputStream(new File("plugins"+File.separator+"RemoteControlServer.jar"));
 			int count;
 			byte[] kb = new byte[1024];
