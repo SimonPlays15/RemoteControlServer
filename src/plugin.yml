@@ -1,0 +1,4 @@
+name: RemoteControlServer
+version: ALPHA-1.5
+author: SimonPlays15
+main: me.simonplays15.development.remoteconsoleserver.Core

@@ -1,0 +1,21 @@
+#
+# Konfigurations Datei für "RemoteControlServer"
+# 
+
+language: 'en'
+
+server-name: 'SERVER'
+
+# Legt den festen Wert des Ports für den RemoteServer fest auf welchem man sich als erstes Verbindet
+remoteserver-port: 6621
+
+# MySQL Datenbank Einstellungen
+mysql:
+  hostname: "localhost"
+  username: "root"
+  password: ""
+  port: 3306
+  
+# Du kannst zwischen 3 verschiedenen PermissionsSystemen auswählen,
+# DEFAULT, CloudNET, PermissionsEx
+permissionssystem: default
